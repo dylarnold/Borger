@@ -2,6 +2,7 @@
 /// @param  {index} _object The Object to follow
 /// @param  {real}  _speed  The speed to follow at
 ///********************* EXAMPLE^*********
-function DylansScriptapalooza(){
-
+function DylansScriptapalooza()
+{
+	draw_text(x, y, "PENIS");
 }
