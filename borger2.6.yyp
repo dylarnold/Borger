@@ -96,6 +96,7 @@
     {"id":{"name":"sTomatoBin","path":"sprites/sTomatoBin/sTomatoBin.yy",},"order":9,},
     {"id":{"name":"sndDing","path":"sounds/sndDing/sndDing.yy",},"order":13,},
     {"id":{"name":"oBotBun","path":"objects/oBotBun/oBotBun.yy",},"order":0,},
+    {"id":{"name":"DylansScriptapalooza","path":"scripts/DylansScriptapalooza/DylansScriptapalooza.yy",},"order":2,},
     {"id":{"name":"sndSanya1TopBun","path":"sounds/sndSanya1TopBun/sndSanya1TopBun.yy",},"order":2,},
     {"id":{"name":"GlobalsEnumsEtc","path":"scripts/GlobalsEnumsEtc/GlobalsEnumsEtc.yy",},"order":0,},
     {"id":{"name":"sndSanya3HiCanIGetA","path":"sounds/sndSanya3HiCanIGetA/sndSanya3HiCanIGetA.yy",},"order":4,},
