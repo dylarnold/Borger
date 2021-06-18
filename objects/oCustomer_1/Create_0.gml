@@ -53,18 +53,21 @@ while sprite_index == global.previousCustomer or sprite_index == global.previous
 global.previousCustomer2 = global.previousCustomer;
 global.previousCustomer = sprite_index; 
 
+sprite_index = choose(sCustomer_7, sCustomer_8);
 switch sprite_index
 {
 	case sCustomer_1: soundPack = global.spOne;
-	image_xscale = .75;
-	image_yscale = .75; break;
+		image_xscale = .75;
+		image_yscale = .75; break;
 	case sCustomer_2: soundPack = global.spTwo; break;
 	case sCustomer_3: soundPack = global.spThree; break;
 	case sCustomer_4: soundPack = global.spFour; break;
 	case sCustomer_5: soundPack = global.spFive; break;
 	case sCustomer_6: soundPack = global.spSix; break;
-	//case sCustomer_7: soundPack = global.spSeven; break;
-	//case sCustomer_8: soundPack = global.spEight; break;
+	case sCustomer_7: soundPack = global.spSeven;
+		image_xscale = .75;
+		image_yscale = .75; break;
+	case sCustomer_8: soundPack = global.spEight; break;
 	//case sCustomer_9: soundPack = global.spNine; break;	
 	//default : soundPack = global.spOne
 }
