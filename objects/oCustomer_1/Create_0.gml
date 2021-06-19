@@ -44,16 +44,16 @@ talking = true;
 
 
 
-sprite_index = choose(sCustomer_1, sCustomer_2, sCustomer_3, sCustomer_4, sCustomer_5);
+sprite_index = choose(sCustomer_1, sCustomer_2, sCustomer_3, sCustomer_4, sCustomer_5, sCustomer_6, sCustomer_7, sCustomer_8, sCustomer_9);
 
 while sprite_index == global.previousCustomer or sprite_index == global.previousCustomer2
 {
-	sprite_index = choose(sCustomer_1, sCustomer_2, sCustomer_3, sCustomer_4, sCustomer_5, sCustomer_6);
+	sprite_index = choose(sCustomer_1, sCustomer_2, sCustomer_3, sCustomer_4, sCustomer_5, sCustomer_6, sCustomer_7, sCustomer_8, sCustomer_9);
 }
 global.previousCustomer2 = global.previousCustomer;
 global.previousCustomer = sprite_index; 
 
-sprite_index = choose(sCustomer_7, sCustomer_8);
+
 switch sprite_index
 {
 	case sCustomer_1: soundPack = global.spOne;
@@ -68,6 +68,8 @@ switch sprite_index
 		image_xscale = .75;
 		image_yscale = .75; break;
 	case sCustomer_8: soundPack = global.spEight; break;
-	//case sCustomer_9: soundPack = global.spNine; break;	
+	case sCustomer_9: soundPack = global.spNine; 
+		image_xscale = .9;
+		image_yscale = .9; break;	
 	//default : soundPack = global.spOne
 }

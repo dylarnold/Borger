@@ -464,6 +464,54 @@ global.spEight = {
 	}
 	
 }
+global.spNine = {
+	opening : 
+	{
+		file: sndAaronNerdyOpening,
+		syls: 14,
+	},
+	closing:
+	{
+		file: sndAaronNerdyClosing,
+		syls: 3,
+	},
+	topBun:
+	{
+		file: sndAaronNerdyTopBun,
+		syls: 2,
+	},
+	botBun:
+	{
+		file: sndAaronNerdyBotBun,
+		syls: 3,
+	},
+	tomato:
+	{
+		file: sndAaronNerdyTomato,
+		syls: 3,
+	},
+	patty:
+	{
+		file: sndAaronNerdyPatty,
+		syls: 2,
+	},
+	lettuce:
+	{
+		file: sndAaronNerdyLettuce,
+		syls: 2,
+	},
+	positiveReaction:
+	{
+		file: sndAaronNerdyPositiveReaction,
+		syls: 15,
+	},
+	negativeReaction:
+	{
+		file: sndAaronNerdyNegativeReaction,
+		syls: 12,
+	}
+	
+}
 // 7, 8, 9
 
 global.previousCustomer = noone;
