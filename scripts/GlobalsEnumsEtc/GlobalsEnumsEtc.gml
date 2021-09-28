@@ -328,7 +328,7 @@ global.spSix = {
 	},
 	closing:
 	{
-		file:sndMom1BorgerPlease,
+		file: sndMom1BorgerPlease,
 		syls: 3,
 	},
 	topBun:
@@ -368,7 +368,150 @@ global.spSix = {
 	}
 	
 }
+global.spSeven = {
+	opening : 
+	{
+		file: sndAaronGruffOpening,
+		syls: 6,
+	},
+	closing:
+	{
+		file: sndAaronGruffClosing,
+		syls: 1,
+	},
+	topBun:
+	{
+		file: sndAaronGruffTopBun,
+		syls: 2,
+	},
+	botBun:
+	{
+		file: sndAaronGruffBotBun,
+		syls: 2,
+	},
+	tomato:
+	{
+		file: sndAaronGruffTomato,
+		syls: 3,
+	},
+	patty:
+	{
+		file: sndAaronGruffPatty,
+		syls: 2,
+	},
+	lettuce:
+	{
+		file: sndAaronGruffLettuce,
+		syls: 2,
+	},
+	positiveReaction:
+	{
+		file: sndAaronGruffPositiveReaction1,
+		syls: 6,
+	},
+	negativeReaction:
+	{
+		file: sndAaronGruffNegativeReaction1,
+		syls: 7,
+	}
 	
+}
+global.spEight = {
+	opening : 
+	{
+		file: sndAaronPoshOpening,
+		syls: 9,
+	},
+	closing:
+	{
+		file: sndAaronPoshClosing,
+		syls: 3,
+	},
+	topBun:
+	{
+		file: sndAaronPoshTopBun,
+		syls: 2,
+	},
+	botBun:
+	{
+		file: sndAaronPoshBotBun,
+		syls: 3,
+	},
+	tomato:
+	{
+		file: sndAaronPoshTomato,
+		syls: 3,
+	},
+	patty:
+	{
+		file: sndAaronPoshPatty,
+		syls: 2,
+	},
+	lettuce:
+	{
+		file: sndAaronPoshLettuce,
+		syls: 2,
+	},
+	positiveReaction:
+	{
+		file: sndAaronPoshPositiveReaction,
+		syls: 4,
+	},
+	negativeReaction:
+	{
+		file: sndAaronPoshNegativeReaction,
+		syls: 8,
+	}
+	
+}
+global.spNine = {
+	opening : 
+	{
+		file: sndAaronNerdyOpening,
+		syls: 14,
+	},
+	closing:
+	{
+		file: sndAaronNerdyClosing,
+		syls: 3,
+	},
+	topBun:
+	{
+		file: sndAaronNerdyTopBun,
+		syls: 2,
+	},
+	botBun:
+	{
+		file: sndAaronNerdyBotBun,
+		syls: 3,
+	},
+	tomato:
+	{
+		file: sndAaronNerdyTomato,
+		syls: 3,
+	},
+	patty:
+	{
+		file: sndAaronNerdyPatty,
+		syls: 2,
+	},
+	lettuce:
+	{
+		file: sndAaronNerdyLettuce,
+		syls: 2,
+	},
+	positiveReaction:
+	{
+		file: sndAaronNerdyPositiveReaction,
+		syls: 15,
+	},
+	negativeReaction:
+	{
+		file: sndAaronNerdyNegativeReaction,
+		syls: 12,
+	}
+	
+}
 // 7, 8, 9
 
 global.previousCustomer = noone;
