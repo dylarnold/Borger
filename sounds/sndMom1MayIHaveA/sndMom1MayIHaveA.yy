@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sndMom1MayIHaveA.ogg",
-  "duration": 1.107948,
+  "duration": 1.102948,
   "parent": {
     "name": "Mom1",
     "path": "folders/Sounds/Voice Lines/Mom1.yy",

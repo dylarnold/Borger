@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sndAaronPoshLettuce.ogg",
-  "duration": 0.710306,
+  "duration": 0.705306,
   "parent": {
     "name": "AaronPosh",
     "path": "folders/Sounds/Voice Lines/AaronPosh.yy",

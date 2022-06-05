@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sndAaronPoshTomato.ogg",
-  "duration": 0.826406,
+  "duration": 0.821406,
   "parent": {
     "name": "AaronPosh",
     "path": "folders/Sounds/Voice Lines/AaronPosh.yy",

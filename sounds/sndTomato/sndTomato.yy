@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 0.69,
   "preload": false,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sndTomato.ogg",
-  "duration": 0.596791,
+  "duration": 0.591791,
   "parent": {
     "name": "Dylan1",
     "path": "folders/Sounds/Voice Lines/Dylan1.yy",

@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sndAaronNerdyPatty.ogg",
-  "duration": 0.556474,
+  "duration": 0.551474,
   "parent": {
     "name": "AaronNerdy",
     "path": "folders/Sounds/Voice Lines/AaronNerdy.yy",

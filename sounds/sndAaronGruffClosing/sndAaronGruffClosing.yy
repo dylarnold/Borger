@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sndAaronGruffClosing.ogg",
-  "duration": 0.707404,
+  "duration": 0.702404,
   "parent": {
     "name": "AaronGruff",
     "path": "folders/Sounds/Voice Lines/AaronGruff.yy",

@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sndAaronPoshPatty.ogg",
-  "duration": 0.692891,
+  "duration": 0.687891,
   "parent": {
     "name": "AaronPosh",
     "path": "folders/Sounds/Voice Lines/AaronPosh.yy",

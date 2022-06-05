@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sndGoodGame.ogg",
-  "duration": 1.198537,
+  "duration": 1.193537,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

@@ -1,3 +1,0 @@
-/// @description Tap Button
-
-interact();

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if position_meeting(mouse_x, mouse_y, oBell) and mouse_check_button_pressed(mb_left) // you clicked the bell
+if position_meeting(mouse_x, mouse_y, oBell) and mouse_check_button_pressed(mb_left)// you clicked the bell
 {
 	if oCustomer_1.talking == false
 	{
@@ -61,12 +61,27 @@ if position_meeting(mouse_x, mouse_y, oBell) and mouse_check_button_pressed(mb_l
 			if msg == msgGoal // it matched!
 			{
 				winResult = "Perfect!";
-				audio_play_sound(oCustomer_1.soundPack.positiveReaction.file, 99, false);
+				
+				with oCustomer_1
+				{
+					talking = true;
+					audioTimer = audio_sound_length(soundPack.positiveReaction.file) * room_speed;
+					audio_play_sound(soundPack.positiveReaction.file, 99, false);
+				}
+				
+				
 			}
 			else // it didn't match!
 			{
-				audio_play_sound(oCustomer_1.soundPack.negativeReaction.file, 1, false); 
+				
 				winResult = "Wrong Order!";
+				
+				with oCustomer_1
+				{
+					talking = true;
+					audioTimer = audio_sound_length(soundPack.negativeReaction.file) * room_speed;
+					audio_play_sound(soundPack.negativeReaction.file, 1, false); 
+				}
 				
 			}					
 			// delete ingredients on plate
@@ -81,16 +96,42 @@ if position_meeting(mouse_x, mouse_y, oBell) and mouse_check_button_pressed(mb_l
 		}
 		else // if showmessage == true (the text showing what burger you made IS showing already)
 		{
-		
-			instance_create_layer(x, y, "Instances", oJudge);
-			instance_destroy();
+
+			randomize();
+			list = ds_list_create();
+			winResult = "";
+			msg_start = "You made a\n";
+			msg = "";
+			msg_end = "borger!"
+			showMessage = false;
+
+			msg_start_goal = "Can I get a\n";
+			msgGoal = "";
+			msg_end_goal = "borger, please?";
+			showMessageGoal = true;
+			// Create randomized burger goal!
+			randomize();
+
+
+			var _num = irandom_range(3, 7);
+			orderGoal = [];
+			repeat(_num)
+			{
+				var _choose = choose("bottom bun", "lettuce", "patty", "tomato", "top bun");
+				array_push(orderGoal, _choose);
+				msgGoal += _choose + ", ";
+			}
+
 			var xx = oCustomer_1.x;
 			var yy = oCustomer_1.y;
+			
+			
 			with oCustomer_1
 			{
 				instance_destroy();
 			}
 			instance_create_layer(xx, yy, "Customers", oCustomer_1);
+
 		}
 	}
 }
