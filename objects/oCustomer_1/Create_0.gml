@@ -23,9 +23,7 @@ lerpy = 0;
 sprite_index = choose(sCustomer_1, sCustomer_2, sCustomer_3, sCustomer_4, 
 sCustomer_5, sCustomer_6, sCustomer_7, sCustomer_8, sCustomer_9);
 
-// TESTING ONLY* REMOVE FOR ACTUAL GAME!!!!!!
 
-sprite_index = sCustomer_7;
 // END TESTING
 
 // randomly choose again if you ended up as the previous 2 customers
