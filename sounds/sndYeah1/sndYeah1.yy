@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sndYeah1.ogg",
-  "duration": 0.559308,
+  "duration": 0.554308,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

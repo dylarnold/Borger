@@ -1,12 +1,15 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sLettuceNew",
+    "path": "sprites/sLettuceNew/sLettuceNew.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "parTapButton",
-    "path": "objects/parTapButton/parTapButton.yy",
+    "name": "parIngredientFlip",
+    "path": "objects/parIngredientFlip/parIngredientFlip.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -20,17 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oHelloWorld","path":"objects/oHelloWorld/oHelloWorld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Buttons",
-    "path": "folders/Objects/Buttons.yy",
+    "name": "IngredientsFlip",
+    "path": "folders/Objects/IngredientsFlip.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oHelloWorld",
+  "name": "oLettuceFlip",
   "tags": [],
   "resourceType": "GMObject",
 }

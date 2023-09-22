@@ -1,59 +1,43 @@
 /// @description 
 randomize();
 image_speed = 0;
-timer = 60
+
 startX = x;
 startY = y;
-slideSpeed = 3;
-y += choose(0, 300);
-x += choose(0, 300, -300);
-ordering = false;
-startSound = false;
+y2 = y + irandom_range(0, 300);
+x2 = x + choose(300, -300);
+x = x2;
+y = y2;
+
+readyForNextLine = false;
 busy = false;
-num = 0;
 talking = true;
-//lines[0] = sndCanIGet;
-//var _snd
-//for (var i=0; i < ds_list_size(oJudge.list_goal); i++)
-//{
-//	var _str = oJudge.list_goal[| i];
-//	oJudge.msgGoal += string_delete(_str, 1, 1) + ", ";
-	
-//	switch oJudge.list_goal[| i]
-//	{
-//		case "oBotBun":
-//			_snd = sndBotBun;
-//			break;
-//		case "oLettuce":
-//			_snd = sndLettuce;
-//			break;
-//		case "oPatty":
-//			_snd = sndPatty;
-//			break;
-//		case "oTomato":
-//			_snd = sndTomato;
-//			break;
-//		case "oTopBun":
-//			_snd = sndTopBun;
-//			break;
-//	}
-//	lines[i+1] = _snd;
-//}
-//lines[i+1] = sndBurgerPlease;
+
+num = 0;
+
+//for lerpin'
+lerpx = 0;
+lerpy = 0;
+ 
+// Randomly choose which sprite to use
+sprite_index = choose(sCustomer_1, sCustomer_2, sCustomer_3, sCustomer_4, 
+sCustomer_5, sCustomer_6, sCustomer_7, sCustomer_8, sCustomer_9);
 
 
+// END TESTING
 
-
-sprite_index = choose(sCustomer_1, sCustomer_2, sCustomer_3, sCustomer_4, sCustomer_5, sCustomer_6, sCustomer_7, sCustomer_8, sCustomer_9);
-
+// randomly choose again if you ended up as the previous 2 customers
 while sprite_index == global.previousCustomer or sprite_index == global.previousCustomer2
 {
-	sprite_index = choose(sCustomer_1, sCustomer_2, sCustomer_3, sCustomer_4, sCustomer_5, sCustomer_6, sCustomer_7, sCustomer_8, sCustomer_9);
+	sprite_index = choose(sCustomer_1, sCustomer_2, sCustomer_3, sCustomer_4,
+	sCustomer_5, sCustomer_6, sCustomer_7, sCustomer_8, sCustomer_9);
 }
+// track the previous 2 customers
 global.previousCustomer2 = global.previousCustomer;
 global.previousCustomer = sprite_index; 
 
 
+// assign the appropriate soundpack based on sprite
 switch sprite_index
 {
 	case sCustomer_1: soundPack = global.spOne;
@@ -63,6 +47,7 @@ switch sprite_index
 	case sCustomer_3: soundPack = global.spThree; break;
 	case sCustomer_4: soundPack = global.spFour; break;
 	case sCustomer_5: soundPack = global.spFive; break;
+		y -= 50;
 	case sCustomer_6: soundPack = global.spSix; break;
 	case sCustomer_7: soundPack = global.spSeven;
 		image_xscale = .75;
@@ -73,3 +58,5 @@ switch sprite_index
 		image_yscale = .9; break;	
 	//default : soundPack = global.spOne
 }
+image_xscale = image_xscale * .85;
+image_yscale = image_yscale * .85;

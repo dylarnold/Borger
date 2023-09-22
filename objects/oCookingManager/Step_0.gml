@@ -34,3 +34,8 @@ else
 {
 	audio_stop_sound(sndSizzle);
 }
+
+if keyboard_check_pressed(ord("R"))
+{
+	game_restart();
+}

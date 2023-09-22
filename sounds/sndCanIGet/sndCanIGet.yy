@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 0.7,
   "preload": false,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sndCanIGet.ogg",
-  "duration": 0.747653,
+  "duration": 0.742653,
   "parent": {
     "name": "Dylan1",
     "path": "folders/Sounds/Voice Lines/Dylan1.yy",

@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sndRevolting.ogg",
-  "duration": 2.009762,
+  "duration": 2.004762,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

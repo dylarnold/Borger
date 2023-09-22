@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sndAaronGruffNegativeReaction1.ogg",
-  "duration": 2.4489,
+  "duration": 2.4439,
   "parent": {
     "name": "AaronGruff",
     "path": "folders/Sounds/Voice Lines/AaronGruff.yy",

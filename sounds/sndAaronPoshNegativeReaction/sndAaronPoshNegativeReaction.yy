@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sndAaronPoshNegativeReaction.ogg",
-  "duration": 2.698515,
+  "duration": 2.693515,
   "parent": {
     "name": "AaronPosh",
     "path": "folders/Sounds/Voice Lines/AaronPosh.yy",
